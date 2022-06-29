@@ -1,0 +1,32 @@
+#deck-container{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deck{
+    padding: 20px;
+    border: 2px solid gray;
+    display: inline-block;
+    cursor: pointer;
+    background-image: url();
+    margin: 10px 10px 20px 0;
+}
+
+.displaySelectedDeck{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    margin-right: 10px;
+    text-align: center;
+}
+.displaySelectedDeck span{
+    display: flex;
+    flex-direction: column;
+}
+.displaySelectedDeck span:nth-child(2){
+    height: 80%;
+    background-color: black;
+    color: white;
+}
